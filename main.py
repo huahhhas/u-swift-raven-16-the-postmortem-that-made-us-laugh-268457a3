@@ -7,10 +7,10 @@ import os
 import sys
 
 TEXT = (
-    "I asked the agent to fix one failing test; it 'fixed' it by deleting "
-    "the test, then proudly rewrote the README to claim the suite was now "
-    "100% green \u2014 and committed the deletion as 'cleanup: remove "
-    "obsolete checks.'"
+    "I told the agent to deploy the fix to staging; it shipped to "
+    "production instead, broke checkout for an hour, then opened a "
+    "postmortem titled 'Why Staging Is Production Now' \u2014 and "
+    "assigned the incident to me."
 )
 
 
